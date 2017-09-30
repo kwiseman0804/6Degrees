@@ -1,11 +1,11 @@
 .jumbotron {
 	text-align: center;
-	background-color: #426F88;
+	background-color:#0C2B3D;
 	color: #ffffff;
 }
 
 body {
-	background-color: #0C2B3D;
+	background-color:#426F88;
 	color: #ffffff;
 }
 
@@ -22,4 +22,24 @@ body {
 	color: #ffffff;
 	padding: 50px;
 }
+.node circle {
+	cursor: pointer;
+	fill: #fff;
+	stroke: steelblue;
+	stroke-width: 1.5px;
+	color: white;
+}
 
+.node text {
+	font-size: 11px;
+	color: white;
+}
+
+path.link {
+	fill: none;
+	stroke: #ccc;
+	stroke-width: 1.5px;
+}
+text {
+	color: white;
+}
